@@ -1,0 +1,315 @@
+.body {
+    position: relative;
+    width: 1280px;
+    height: 2520px;
+    background: #2E353A;
+    justify-content: center;
+    margin: 40px; 
+}
+
+#logo {
+    position: absolute;
+    width: 300px;
+    height: 216px;
+    left: 490px;
+    top: 50px;
+    background: url(Screenshot_2023-05-18_at_4.png);
+}
+
+.introduction {
+    position: absolute;
+    width: 1200px;
+    height: 802px;
+    left: 40px;
+    top: 316px;
+}
+
+h1 {
+
+    position: absolute;
+    width: 617px;
+    height: 46px;
+    left: 291px;
+    top: 0px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+
+    color: #FDFDFD;
+}
+
+.intro {
+    position: absolute;
+    width: 1200px;
+    height: 135px;
+    left: 0px;
+    top: 96px;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FDFDFD;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+
+    position: absolute;
+    width: 1200px;
+    height: 471px;
+    left: 0px;
+    top: 331px;
+}
+
+#business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 590px;
+    height: 437px;
+
+    background: #EAFFEA;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.suitcases {
+    width: 100px;
+    height: 100px;
+    background: url(.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.busy {
+    width: 550px;
+    height: 41px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E353A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.businesses {
+    width: 550px;
+    height: 216px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E353A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#donationCenters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    width: 540px;
+    height: 471px;
+    background: #EAFFEA;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.charityBox {
+    width: 100px;
+    height: 100px;
+    background: url(.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.donate {
+    width: 500px;
+    height: 41px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E353A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.donationCenters {
+    width: 500px;
+    height: 270px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E353A;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.line {
+    position: absolute;
+    width: 1280.06px;
+    height: 0px;
+    left: 0px;
+    top: 1218px;
+    border: 5px solid #FDFDFD;
+}
+
+.CallToaction {
+    position: absolute;
+    width: 1200px;
+    height: 1102px;
+    left: 40px;
+    top: 1318px;
+}
+
+.mobile {
+    position: absolute;
+    width: 308px;
+    height: 627px;
+    left: 446px;
+    top: 0px;
+}
+
+.attention {
+    position: absolute;
+    width: 1200px;
+    height: 135px;
+    left: 0px;
+    top: 727px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FDFDFD;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    position: absolute;
+    width: 1070px;
+    height: 140px;
+    left: 65px;
+    top: 962px;
+}
+
+#apple {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 485px;
+    height: 140px;
+    background: #EAFFEA;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.apple {
+    width: 100px;
+    height: 100px;
+    background: url(.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ios {
+    width: 325px;
+    height: 41px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E353A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#android {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 485px;
+    height: 140px;
+    background: #EAFFEA;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.android {
+    width: 100px;
+    height: 100px;
+    background: url(.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
